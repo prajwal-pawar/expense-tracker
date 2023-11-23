@@ -1,0 +1,19 @@
+:root {
+  --background-color: #17181f;
+  --font-color: #dddddd;
+  --font-secondary-color: #888;
+  --border-color: #30313d;
+}
+
+/* custom font */
+@font-face {
+  font-family: "montserrat";
+  src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
